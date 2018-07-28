@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+/*  font family:'Raleway' , sans-serif; */
+
+/*<!-- si on avait telecharger le fichier .tff et le mettre dans font, procedez comme suit!
+@font-face{
+font-family: 'Raleway';
+src : 'font/Raleway.ttf';
+
+}
+
+*/
+
+/* bleu-clair--> #3498DB*/
+/* bleu-fonce --> #2C3E50*/
+/* blanc --> #ffffff */
+
+body, html
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+	font-family:'Raleway' , sans-serif;
+}
+
+a, a:hover
+{
+	text-decoration: none;
+}
+
+.container-fluid
+{
+
+	padding: 0;
+}
+
+
+button
+{
+	background-color: #3498DB;
+	color: #ffffff;
+}
+
+button:hover
+{
+	background-color: #2C3E50;
+	
+}
+
+
+.separator
+{
+	height:3px;
+	width:5%;
+	border:none;
+	box-shadow: none;
+	background-color: #3498DB;
+}
+
+/* header */
+
+.header
+{
+	background-color: #3498DB;
+	height: 70px;
+	line-height: 70px;
+
+}
+
+.logo
+{
+	color:#ffffff;
+	text-transform: uppercase; 
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.menu
+{
+
+	float: right;
+}
+
+
+.menu a
+{
+	color: #ffffff; 
+	margin-right: 20px;
+}
+
+.menu a:hover
+{
+	color:#2C3E50;
+}
+
+
+/* banniere */
+
+
+.banner
+{
+	width: 100%;
+	max-width: 100%;
+	
+}
+
+
+
+.banner img
+{
+	width: 100%;
+	max-width: 100%;
+	position:relative;
+}
+
+.inner-banner
+{
+	position: absolute;
+	top:10%;
+	width:100%;
+	text-align: center;
+}
+
+.inner-banner h1 
+{
+	text-shadow: 20px,20px,20px, #000000;
+	color:#2C3E50;
+}
+
+
+/* about */
+
+#about
+{
+	text-align: center;
+	/* padding-top: 10%; */
+}
+
+.about article
+{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.about article h2
+{
+	text-align: center;
+}
+
+/* potfolio */
+.portfolio
+{
+	background-color: #eeeeee;
+	height:700px;
+}
+
+#portfolio
+{
+	text-align: center;
+}
+
+.portfolio .item-folio
+{
+	
+	height:280px;
+	background-color:#3498DB;
+}
+
+/* contact */
+
+footer
+{
+	background-color: #2C3E50;
+	height: 600px;
+}
+
+footer p
+{
+	color: #ffffff;
+	text-align: center;
+	padding-top: 5%;
+}
+
+#contact
+{
+	color: #ffffff;
+	text-align: center;
+}
+
+.formulaireContact
+{
+	width: 500px;
+	display: block;
+	margin:auto;
+}
+
+input
+{
+	margin-bottom: 20px;
+}
+
+input[type=text]
+{
+	width: 500px;
+	height: 50px;
+	border:none;
+}
+
+input[type=email]
+{
+	width: 500px;
+	height: 50px;
+	border:none;
+}
+
+
+textarea
+{
+	width:500px;
+	height: 200px;
+	resize: vertical;
+}
+
+
+form button
+{
+	background-color: #3498DB;
+	color: #ffffff;
+}
+
+form button:hover
+{
+	background-color: #2C3E50;
+}
