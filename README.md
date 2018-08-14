@@ -1,10 +1,3 @@
-# DIAO MOUSTAPHA
-
-
-# MON SITE VITRINE
-
-
-# SINCE 2016/2017
-
-
-# MIS SUR GITHUB 2018
+# sama-potager
+# Sama Potager
+# By Diao Moustapha
